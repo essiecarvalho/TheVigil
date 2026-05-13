@@ -34,6 +34,6 @@ Bash
 python motor.py
 O terminal exibirá um link local (geralmente http://127.0.0.1:5000). Basta segurar Ctrl e clicar no link ou colá-lo no seu navegador para iniciar a experiência.
 
-## 🎵 Créditos e Atribuições
+##  ִֶָ☾.࣪࿐ Créditos e Atribuições
 * **Trilha Sonora:** *"Forgotten"* composta por [Dark Head Candy](https://www.youtube.com/@DarkHeadCandy). Utilizada para fins educacionais e criativos na construção da atmosfera deste projeto.
 Desenvolvido por Esther Carvalho.
