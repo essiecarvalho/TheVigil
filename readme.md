@@ -19,21 +19,24 @@ Para rodar este projeto na sua máquina, siga os passos abaixo:
 
 1. Clone este repositório:
 ```bash
-git clone [https://github.com/essiecarvalho/thevigil.git](https://github.com/essiecarvalho/thevigil.git)
-Acesse a pasta do projeto:
+git clone [https://github.com/essiecarvalho/thevigil.git](https://github.com/essiecarvalho/thevigil.git)'''
 
-Bash
-cd thevigil
-Instale a dependência do Flask:
+2. Acesse a pasta do projeto:
+'''bash
+cd thevigil'''
 
-Bash
-pip install flask
-Execute o servidor principal:
+3. Instale a dependência do Flask:
+'''bash
+pip install flask'''
 
-Bash
-python motor.py
-O terminal exibirá um link local (geralmente http://127.0.0.1:5000). Basta segurar Ctrl e clicar no link ou colá-lo no seu navegador para iniciar a experiência.
+4. Execute o servidor principal:
+'''bash
+python motor.py'''
+
+5. O terminal exibirá um link local (geralmente http://127.0.0.1:5000). Basta segurar Ctrl e clicar no link ou colá-lo no seu navegador para iniciar a experiência.
+
 
 ##  ִֶָ☾.࣪࿐ Créditos e Atribuições
 * **Trilha Sonora:** *"Forgotten"* composta por [Dark Head Candy](https://www.youtube.com/@DarkHeadCandy). Utilizada para fins educacionais e criativos na construção da atmosfera deste projeto.
+
 Desenvolvido por Esther Carvalho.
