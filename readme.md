@@ -18,20 +18,16 @@ O coração da aplicação é um *Story Engine* (Motor de História) que roda em
 Para rodar este projeto na sua máquina, siga os passos abaixo:
 
 1. Clone este repositório:
-```bash
-git clone [https://github.com/essiecarvalho/thevigil.git](https://github.com/essiecarvalho/thevigil.git)'''
+git clone [https://github.com/essiecarvalho/thevigil.git](https://github.com/essiecarvalho/thevigil.git)
 
 2. Acesse a pasta do projeto:
-'''bash
-cd thevigil'''
+cd thevigil
 
 3. Instale a dependência do Flask:
-'''bash
-pip install flask'''
+pip install flask
 
 4. Execute o servidor principal:
-'''bash
-python motor.py'''
+python motor.py
 
 5. O terminal exibirá um link local (geralmente http://127.0.0.1:5000). Basta segurar Ctrl e clicar no link ou colá-lo no seu navegador para iniciar a experiência.
 
