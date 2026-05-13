@@ -1,0 +1,78 @@
+/* Reset básico para tirar margens padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* Um tom de fundo escuro e terroso, bem imersivo */
+    background-color: #1a1818; 
+    /* Cor do texto lembrando páginas envelhecidas */
+    color: #d1c7b7; 
+    /* Fonte clássica e elegante */
+    font-family: 'Georgia', serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-container {
+    background-color: #242121;
+    max-width: 700px;
+    width: 90%;
+    padding: 40px;
+    border: 1px solid #3d3636;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+}
+
+.scene-header h1 {
+    font-size: 1.8rem;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #a89f91;
+    margin-bottom: 10px;
+}
+
+.scene-header hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, #574e4e, transparent);
+    margin-bottom: 30px;
+}
+
+.narrative-box {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.choices-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.choice-btn {
+    background-color: transparent;
+    color: #a89f91;
+    border: 1px solid #574e4e;
+    padding: 15px 20px;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: left;
+    border-radius: 4px;
+}
+
+/* Efeito quando passa o mouse por cima do botão */
+.choice-btn:hover {
+    background-color: #3d3636;
+    color: #e3dcd1;
+    border-color: #8c8080;
+}
